@@ -15,7 +15,9 @@ class String
   end
 
   def count_sentences
-    self.split
+    arry = []
+    arry << self.split
+    arry
 
 
 binding.pry
