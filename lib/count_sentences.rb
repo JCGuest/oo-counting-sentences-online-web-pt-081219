@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     
-    arry << self.split
+    self.split
     
 
 
